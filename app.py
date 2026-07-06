@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
+from cors import CORS
 import json
 from supabase_client import supabase
 
 app = Flask(__name__)
+CORS(app)
 
 # Load local dataset
 with open("dataset.json", "r", encoding="utf-8") as f:
