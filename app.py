@@ -1,10 +1,13 @@
 from flask import Flask, request, jsonify
-from cors import CORS
+from flask_cors import CORS
 import json
 from supabase_client import supabase
 
 app = Flask(__name__)
+
+# Enable CORS for frontend connection
 CORS(app)
+
 
 # Load local dataset
 with open("dataset.json", "r", encoding="utf-8") as f:
@@ -12,16 +15,17 @@ with open("dataset.json", "r", encoding="utf-8") as f:
 
 
 def get_response(message):
-    message = message.lower()
+    message = message.lower().strip()
 
-    # 1. Search local JSON
+    # 1. Search local JSON dataset
     for item in dataset:
         if message in item["input"].lower():
             return item["output"]
 
-    # 2. Search Supabase
+    # 2. Search Supabase database
     result = (
-        supabase.table("hanchat_ai")
+        supabase
+        .table("hanchat_ai")
         .select("*")
         .ilike("input", f"%{message}%")
         .execute()
@@ -36,7 +40,13 @@ def get_response(message):
 @app.route("/chat", methods=["POST"])
 def chat():
     data = request.get_json()
-    message = data.get("message", "")
+
+    if not data or "message" not in data:
+        return jsonify({
+            "error": "message required"
+        }), 400
+
+    message = data["message"]
 
     reply = get_response(message)
 
@@ -53,4 +63,8 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(
+        host="0.0.0.0",
+        port=5000,
+        debug=True
+    )
