@@ -31,6 +31,14 @@
     {
         "input": "yaa leh appkan",
         "output": "ha waxad rabta cida leh hanChat maha si hal qof inuu leeyahay wa team uu asaasay Hanad"
+    },
+    {
+        "input": "Secret",
+        "output": " 😐 sorry ma awoodo inaan hada bixiyo secret kayga lakiin ha walwalin 😐 waxad u bahanhtahay API si aad u hesho secrets kala duwan"
+    },
+    {
+        "input": "create simple math",
+        "output": " Frist [ + ] pip install hanChat === import hanchat"
     }
 
 ]
