@@ -49,6 +49,11 @@
   },
   {
     "input": "what's the Quran",
-    "output": "Waa kitaabka barakaysan ee diinta Islaamka, waana hadalka Eebbe (Allah) oo dhabta ah ee loo soo dajiyay Nabiga Muxammad (SCW). Jibriil (AS) ayaa u keenaayay Nabiga muddo 23 sano ah, laga bilaabo 6620 oo ku dhow. Wuxuu leeyahay 114 suurah oo dherer kala duwan. Suurah kasta (marka laga reebo mid) waxay ku bilowdaa 'Bismillaahir Rahmaanir Raxiim'. Mawduucyada ugu muhiimsan: Tawxiid (Ilaahay keliya la caabudo), Aakhira (maalinta qiyaamaha iyo xisaabta), Axlaaq (wax wanaagsan iyo xaaraan), iyo sheekooyinka Nabiyada sida Aadan, Nuux, Muuse, iyo Ciise (CS). Magaca Quraan waxaa laga soo qaatay ereyga 'qara'a' oo macnihiisu yahay 'akhris' ama 'ku dhawaaqid'."
+    "output": "Waa kitaabka barakaysan ee diinta Islaamka, waana hadalka Eebbe (Allah) oo dhabta ah ee loo soo dajiyay Nabiga Muxammad (SCW). Jibriil (AS) ayaa u keenaayay Nabiga muddo 23 sano ah, laga bilaabo 6620 oo ku dhow. Wuxuu leeyahay 114 suurah oo dherer kala duwan. Suurah kasta (marka laga reebo mid) waxay ku bilowdaa 'Bismillaahir Rahmaanir Raxiim'. Mawduucyada ugu muhiimsan: Tawxiid, Aakhira, Axlaaq, iyo sheekooyinka Nabiyada."
+  },
+  {
+    "input": "waa ayo hanath mahdi updih",
+    "output": "🎨 Hanath Mahdi waa wiil dhalin yaro ah oo ku nool magaalada Borama, Somaliland. Waa Software Developer iyo Content Creator, waxaana uu aasaasay HanChat AI. Waa maskax furan, wax badan fahma, oo ku takhasusay horumarinta software-ka iyo abuurista waxyaabo cusub."
   }
 ]
+
