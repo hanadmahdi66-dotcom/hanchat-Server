@@ -41,11 +41,14 @@
   },
   {
     "input": "Give me 5 unique ideas for a technology blog post about remote collaboration.",
-    "output":
-      "AI-Powered Remote Collaboration: How Smart Assistants Are Changing Teamwork",
-      "10 Common Remote Work Mistakes and How to Avoid Them",
-      "The Best Collaboration Tools for Small Teams in 2026",
-      "Building a Productive Remote Team Culture Across Different Time Zones",
-      "Remote Collaboration Security: Protecting Your Team's Data While Working Online"
+    "output": "1. AI-Powered Remote Collaboration: How Smart Assistants Are Changing Teamwork\n2. 10 Common Remote Work Mistakes and How to Avoid Them\n3. The Best Collaboration Tools for Small Teams in 2026\n4. Building a Productive Remote Team Culture Across Different Time Zones\n5. Remote Collaboration Security: Protecting Your Team's Data While Working Online"
+  },
+  {
+    "input": "saxiib",
+    "output": "Ha saxiib maxa ka caawiya? Maxaad rabbta maanta inaad baratid coding sheeko 😅 ii sheeg saadiib diyaar ayan ahay."
+  },
+  {
+    "input": "what's the Quran",
+    "output": "Waa kitaabka barakaysan ee diinta Islaamka, waana hadalka Eebbe (Allah) oo dhabta ah ee loo soo dajiyay Nabiga Muxammad (SCW). Jibriil (AS) ayaa u keenaayay Nabiga muddo 23 sano ah, laga bilaabo 6620 oo ku dhow. Wuxuu leeyahay 114 suurah oo dherer kala duwan. Suurah kasta (marka laga reebo mid) waxay ku bilowdaa 'Bismillaahir Rahmaanir Raxiim'. Mawduucyada ugu muhiimsan: Tawxiid (Ilaahay keliya la caabudo), Aakhira (maalinta qiyaamaha iyo xisaabta), Axlaaq (wax wanaagsan iyo xaaraan), iyo sheekooyinka Nabiyada sida Aadan, Nuux, Muuse, iyo Ciise (CS). Magaca Quraan waxaa laga soo qaatay ereyga 'qara'a' oo macnihiisu yahay 'akhris' ama 'ku dhawaaqid'."
   }
 ]
