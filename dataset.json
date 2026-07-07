@@ -39,6 +39,16 @@
     {
         "input": "create simple math",
         "output": " Frist [ + ] pip install hanChat === import hanchat"
+      }
+      {
+        "input": "Give me 5 unique ideas for a technology blog post about remote collaboration.",
+        "output": 
+    "AI-Powered Remote Collaboration: How Smart Assistants Are Changing Teamwork",
+    "10 Common Remote Work Mistakes and How to Avoid Them",
+    "The Best Collaboration Tools for Small Teams in 2026",
+    "Building a Productive Remote Team Culture Across Different Time Zones",
+    "Remote Collaboration Security: Protecting Your Team's Data While Working Online"
+  
     }
 
 ]
