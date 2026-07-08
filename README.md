@@ -4,7 +4,7 @@
 
 ### Backend Server for **hanChat** — Real-Time Messaging App
 
-Built with ❤️ by [Hanadora](https://hanadora.site)
+Built with ❤️ by [hanChat AI](https://han-chates.vercel.app)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -48,61 +48,10 @@ Built with ❤️ by [Hanadora](https://hanadora.site)
 - **Database:** PostgreSQL via Supabase
 - **Authentication:** JWT / Supabase Auth
 - **Realtime:** Supabase Realtime / WebSockets
-- **Hosting:** _(fadlan buuxi — tusaale: Render, Railway, VPS)_
+- **Hosting:** _(hanServer)_
 
 ---
 
-## 📂 Project Structure
-
-```
-hanServer/
-├── app.py                # Main Flask app
-├── routes/                # API endpoints
-│   ├── auth.py
-│   └── messages.py
-├── models/                 # Database models
-├── config.py               # Environment configuration
-├── requirements.txt         # Python dependencies
-├── .env.example              # Sample environment variables
-└── README.md
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/hanServer.git
-cd hanServer
-```
-
-### 2️⃣ Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-```
-
-### 3️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Set up environment variables
-Samee file magaciisu yahay `.env`, kadibna geli:
-```env
-SUPABASE_URL=your_supabase_url
-SUPABASE_KEY=your_supabase_key
-SECRET_KEY=your_secret_key
-```
-
-### 5️⃣ Run the server
-```bash
-python app.py
-```
-
-Server-ku wuxuu ku shaqayn doonaa: `http://localhost:5000`
 
 ---
 
@@ -117,9 +66,7 @@ Server-ku wuxuu ku shaqayn doonaa: `http://localhost:5000`
 
 ---
 
-## 🤝 Contributing
 
-Contributions waa la soo dhaweynayaa! Fadlan samee fork, samee changes-kaaga, ka dibna soo dir pull request.
 
 ---
 
@@ -131,6 +78,6 @@ Licenda MIT — arag [LICENSE](LICENSE) file-ka.
 
 <div align="center">
 
-Made with 💻 & ☕ in **Somaliland** 🇸🇴 by **Hanadora**
+Made with 💻 & ☕ in **Somaliland** 🇸🇴 by **hanServer**
 
 </div>
