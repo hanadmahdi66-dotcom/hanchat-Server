@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Wikipedia",
+    "url": "https://www.wikipedia.org",
+    "category": "Encyclopedia"
+  },
+  {
+    "id": 2,
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org",
+    "category": "Education"
+  },
+  {
+    "id": 3,
+    "name": "Python",
+    "url": "https://www.python.org",
+    "category": "Programming"
+  },
+  {
+    "id": 4,
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org",
+    "category": "Web Development"
+  },
+  {
+    "id": 5,
+    "name": "GitHub",
+    "url": "https://github.com",
+    "category": "Technology"
+  },
+  {
+    "id": 6,
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "category": "Programming"
+  },
+  {
+    "id": 7,
+    "name": "NASA",
+    "url": "https://www.nasa.gov",
+    "category": "Science"
+  },
+  {
+    "id": 8,
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "category": "News"
+  },
+  {
+    "id": 9,
+    "name": "National Geographic",
+    "url": "https://www.nationalgeographic.com",
+    "category": "Science & Nature"
+  },
+  {
+    "id": 10,
+    "name": "TED",
+    "url": "https://www.ted.com",
+    "category": "Ideas & Education"
+  },
+  {
+    "id": 11,
+    "name": "Coursera",
+    "url": "https://www.coursera.org",
+    "category": "Online Learning"
+  },
+  {
+    "id": 12,
+    "name": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu",
+    "category": "University Education"
+  },
+  {
+    "id": 13,
+    "name": "Google Developers",
+    "url": "https://developers.google.com",
+    "category": "Technology"
+  },
+  {
+    "id": 14,
+    "name": "Microsoft Learn",
+    "url": "https://learn.microsoft.com",
+    "category": "Technology"
+  },
+  {
+    "id": 15,
+    "name": "AWS Documentation",
+    "url": "https://docs.aws.amazon.com",
+    "category": "Cloud Computing"
+  },
+  {
+    "id": 16,
+    "name": "OpenAI",
+    "url": "https://openai.com",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 17,
+    "name": "Supabase Docs",
+    "url": "https://supabase.com/docs",
+    "category": "Database"
+  },
+  {
+    "id": 18,
+    "name": "Flask Documentation",
+    "url": "https://flask.palletsprojects.com",
+    "category": "Python Web Framework"
+  },
+  {
+    "id": 19,
+    "name": "W3Schools",
+    "url": "https://www.w3schools.com",
+    "category": "Programming Tutorials"
+  },
+  {
+    "id": 20,
+    "name": "Internet Archive",
+    "url": "https://archive.org",
+    "category": "Digital Library"
+  }
+]
