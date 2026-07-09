@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-FIRECRAWL_API_KEY = os.getenv("fc-fd621a6845f6420c9153090a4b1eb417")
+FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_API_KEY")
 
 firecrawl = FirecrawlApp(api_key=FIRECRAWL_API_KEY)
 
@@ -28,12 +28,19 @@ for website in websites:
             formats=["markdown"]
         )
 
+        content = result.markdown
+
+        # Clean markdown content
+        content = content.replace("#", "")
+        content = content.replace("*", "")
+        content = content.replace("\n\n", "\n")
+
         knowledge.append({
             "id": website["id"],
             "name": website["name"],
             "url": website["url"],
             "category": website["category"],
-            "content": result.markdown
+            "content": content[:3000]
         })
 
         print("✅ Done")
