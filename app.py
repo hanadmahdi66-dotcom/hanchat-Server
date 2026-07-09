@@ -53,15 +53,23 @@ def get_response(message):
         category = item.get("category", "").lower()
         content = item.get("content", "")
 
-        if (
-            message in name
-            or message in category
-            or message in content.lower()
-        ):
+        # Ka saar erayada su'aasha
+        words = message.split()
+
+        # Hubi haddii magaca website-ka ku jiro su'aasha
+        if any(word in name for word in words):
+            return content[:1000]
+
+        # Hubi category
+        if any(word in category for word in words):
+            return content[:1000]
+
+        # Hubi content
+        if message in content.lower():
             return content[:1000]
 
 
-    return "Ma fahmin 🤖"
+    return "Ma fahmin waxa aad ka wado ee fadlan ha isticmaalin API qaldan🤖"
 
 
 @app.route("/chat", methods=["POST"])
